@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1120" height="1988" viewBox="0 0 1120 1988">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="mask" width="1120" height="1988" transform="translate(320 1770)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="image_圓底_2" data-name="image_圓底 2" transform="translate(-320 -1770)" clip-path="url(#clip-path)">
+    <ellipse id="圓" cx="987" cy="987.5" rx="987" ry="987.5" transform="translate(320 1783)" fill="#4e0101"/>
+  </g>
+</svg>
