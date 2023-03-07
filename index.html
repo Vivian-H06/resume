@@ -7,16 +7,16 @@
     <title>Vivian Huang Resume</title>
     <link href="./assets/bootstrap-dist/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://use.typekit.net/rvw0yjc.css">
-    <link rel="stylesheet" href="./assets/css/app.index.css">
+    <link rel="stylesheet" href="./assets/css/app.index.css?v=1">
     <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <section id="mobileNotice" class="d-md-none">
+    <section id="mobileNotice" class="d-lg-none">
       <p class="mb-0">
         請使用 1024px 以上的顯示器來預覽．
       </p>
     </section>
-    <section id="main" class="d-none d-md-block">
+    <section id="main" class="d-none d-lg-block">
       <div class="container">
         <header class="d-flex flex-wrap align-items-center">
           <a href="/resume" id="homeLink" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-decoration-none">
@@ -72,36 +72,42 @@
           <img class="content1" src="./assets/img/home/image_素材1@2x.png" alt="background content1">
           <!--img class="content2" src="./assets/img/home/image_素材2@2x.png" alt="background content2"-->
         </div>
-        <div class="row intro">
-          <div class="col-7 m-level">
-            <img class="img-fluid" src="./assets/img/home/title_about@2x.png" alt="about image">
-            <h1>I am Vivian</h1>
-            <div class="row mt-4 pt-3">
-              <div class="col-4">
-                <p>
-                  1996.06.30
-                </p>
-              </div>
-              <div class="col-8">
-                <p class="detail">
-                  內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
-                </p>
-                <img class="img-fluid" src="./assets/img/home/軟體.png" alt="software">
+      </div>
+      <div class="intro-wrapper">
+        <div class="container">
+          <div class="row intro">
+            <div class="col-7 m-level">
+              <img class="title-about" src="./assets/img/home/title_about@2x.png" alt="about image">
+              <h1>I am Vivian</h1>
+              <div class="row mt-4 pt-3">
+                <div class="col-4">
+                  <p>
+                    1996.06.30
+                  </p>
+                </div>
+                <div class="col-8">
+                  <p class="detail">
+                      我是黃以萱，是位跨領域的 UIUX 設計師<br><br>曾任職過品牌視覺設計與介面設計師的職位，擅長邏輯分析、擬定 Design System 和網站視覺規劃，並熟悉 Adobe 系統，也曾參與過政府標案、B2B、客製化官網與電商平台等設計專案，並致力於＂改善使用情況，解決問題所在＂讓用戶得以有更良好的使用者體驗。<br><br>在過去經歷中，多元的設計經驗使我能靈活融入不同設計技巧，進而提升作品品質，並善於團隊配合，在獨自執行專案上也能成熟應對。
+                  </p>
+                  <img class="img-fluid" src="./assets/img/home/軟體.png" alt="software">
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-5">
-            <div class="profile-wrapper">
-              <img class="img-fluid" src="./assets/img/home/履歷_photo@2x.png" alt="Vivian Huang profile image">
-              <img class="bg-line" src="./assets/img/home/頭貼_line@2x.png" alt="background white line">
-              <img class="bg" src="./assets/img/home/頭貼@2x.png" alt="background color">
-              <img class="bg-yellow" src="./assets/img/home/yellow框@2x.png" alt="background yelow line">
-              <a href="mailto:test@gmail.com" class="icon-email mb-0">
-                <img src="./assets/img/home/icon_email@2x.png" alt="icon email">
-              </a>
+            <div class="col-4 offset-1">
+              <div class="profile-wrapper">
+                <img class="profile-img" src="./assets/img/home/履歷_photo@2x.png" alt="Vivian Huang profile image">
+                <!--img class="bg-line" src="./assets/img/home/頭貼_line@2x.png" alt="background white line">
+                <img class="bg" src="./assets/img/home/頭貼@2x.png" alt="background color">
+                <img class="bg-yellow" src="./assets/img/home/yellow框@2x.png" alt="background yelow line"-->
+                <a href="mailto:viviannn0630@gmail.com" class="icon-email mb-0">
+                  <img class="icon" src="./assets/img/home/icon_email@2x.png" alt="icon email">
+                  <img class="bg" src="./assets/img/home/轉圈_hello@2x.png" alt="icon email circle">
+                </a>
+              </div>
             </div>
           </div>
         </div>
+      </div>
         <!--div class="row">
           <div class="col we-title">
             <p>WORK EXPERIENCE</p>
@@ -173,24 +179,19 @@
             </div>
           </div>
         </div-->
-        <div class="row r-level-top">
-          <div class="col">
-            <img class="bg-img2" src="./assets/img/home/image_素材5@2x.png" alt="background image5">
-          </div>
+      <div class="w-100 r-level-top">
+        <img class="bg-img2" src="./assets/img/home/image_素材5@2x.png" alt="background image5">
+      </div>
+      <div class="w-100" id="r-level">
+        <div class="rolling-text">
+          <div class="content" id="r-level-one" style="background-image: url('./assets/img/home/滾動_WEB&3D@2x.png')" alt="web image"></div>
+          <div class="content" id="r-level-two" style="background-image: url('./assets/img/home/滾動_PROJECTS@2x.png')" alt="projects image"></div>
         </div>
-        <div class="row r-level">
-          <div class="col">
-            <div class="rolling-text">
-              <div class="content" style="background-image: url('./assets/img/home/滾動_WEB.png')" alt="web image"></div>
-              <div class="content" style="background-image: url('./assets/img/home/滾動_PROJECTS.png')" alt="projects image"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row projects-row-top">
-          <div class="col">
-            <img class="bg-img" src="./assets/img/home/image_素材3@2x.png" alt="background image3">
-          </div>
-        </div>
+      </div>
+      <div class="w-100 projects-row-top">
+        <img class="bg-img" src="./assets/img/home/image_素材3@2x.png" alt="background image3">
+      </div>
+      <div class="container">
         <div class="row projects-row pb-4 m-level">
           <div class="col">
             <a href="/resume/qbic">
@@ -215,16 +216,16 @@
             </a>
           </div>
         </div>
-        <div class="row projects-row-bottom">
-          <div class="col">
-            <img class="bg-img" src="./assets/img/home/image_素材4@2x.png" alt="background image4">
-          </div>
+      </div>
+      <div class="w-100 projects-row-bottom">
+        <div class="col">
+          <img class="bg-img" src="./assets/img/home/image_素材4@2x.png" alt="background image4">
         </div>
       </div>
     </section>
     <footer class="m-level">
       <div class="text-center">
-        <a href="mailto:test@gmail.com" class="mb-0">
+        <a href="mailto:viviannn0630@gmail.com" class="mb-0">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill d-inline-flex" viewBox="0 0 16 16">
               <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
           </svg>
