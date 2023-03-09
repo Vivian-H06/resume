@@ -9,6 +9,8 @@ const rLevel = document.getElementById("r-level");
 const rLevelOne = document.getElementById("r-level-one");
 const rLevelTwo = document.getElementById("r-level-two");
 
+const bounceObj = document.getElementById("bounceObj");
+
 window.onscroll = function (e) {
 // called when the window is scrolled.
   if(mobileWrapper != null){
@@ -16,6 +18,9 @@ window.onscroll = function (e) {
   }
   if(rLevel != null){
     updateRLevelBackground();
+  }
+  if(bounceObj != null){
+    updateBounceObj();
   }
 }
 
@@ -42,6 +47,20 @@ function updateRLevelBackground(){
       var index = top - wrapperTop;
       rLevelOne.style.setProperty('background-position-x', (-1095 + index * 0.28301886792) + "px");
       rLevelTwo.style.setProperty('background-position-x', (-225 - index) + "px");
+    }
+  }
+}
+
+function updateBounceObj(){
+  if(bounceObj != null){
+    var top  = window.scrollY + window.innerHeight;
+    var position = bounceObj.getBoundingClientRect();
+    var wrapperTop = position.top + window.scrollY + (window.innerHeight/2) + (position.height/2);
+    //console.log("top:",top,"wrapperTop:",wrapperTop);
+    if(top >= wrapperTop){
+      bounceObj.classList.add("bounceObj");
+    }else{
+      bounceObj.classList.remove("bounceObj");
     }
   }
 }

@@ -7,7 +7,7 @@
     <title>Vivian Huang Resume - Omflow</title>
     <link href="./assets/bootstrap-dist/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://use.typekit.net/rvw0yjc.css">
-    <link rel="stylesheet" href="./assets/css/app.omflow.css?v=2">
+    <link rel="stylesheet" href="./assets/css/app.omflow.css?v=3">
     <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
   </head>
   <body style="background-image: url('./assets/img/omflow/linedpaper@2x.png')">
@@ -62,7 +62,7 @@
         <img class="material4" src="./assets/img/omflow/素材_4@2x.png" alt="material4 image">
         <img class="material1" src="./assets/img/omflow/素材_1@2x.png" alt="material1 image">
         <img class="material5" src="./assets/img/omflow/素材_5@2x.png" alt="material5 image">
-        <img class="material2" src="./assets/img/omflow/素材_2@2x.png" alt="material2 image">
+        <img class="material2 d-none d-xl-block" src="./assets/img/omflow/素材_2@2x.png" alt="material2 image">
         <img class="material3" src="./assets/img/omflow/素材_3@2x.png" alt="material3 image">
       </div>
       <div class="container banner">
@@ -75,12 +75,12 @@
               <img class="img-fluid" src="./assets/img/omflow/banner@2x.png" alt="banner image">
               <img class="banner-title" src="./assets/img/omflow/banner_OMFLOW MASCOT@2x.png" alt="banner title image">
               <img class="mascot" src="./assets/img/omflow/image_吉祥物本人@2x.png" alt="mascot image">
-              <img class="colors" src="./assets/img/omflow/color 漸層@2x.png" alt="colors image">
+              <img class="colors d-none d-xl-block" src="./assets/img/omflow/color 漸層@2x.png" alt="colors image">
             </div>
           </div>
         </div>
       </div>
-      <div class="w-100 sliding-background" style="background-image: url('./assets/img/omflow/sketch_滾動 2@2x.png')" alt="sketch scroll second image">
+      <div class="w-100 sliding-background" style="background-image: url('./assets/img/omflow/组 17130@2x.png')" alt="sketch scroll second image">
       </div>
       <div class="container sketch">
         <div class="row">
@@ -93,13 +93,13 @@
           </div>
         </div>
       </div>
-      <div class="w-100 sliding-background" style="background-image: url('./assets/img/omflow/sketch_滾動 1@2x.png')" alt="sketch scroll first image">
+      <div class="w-100 sliding-background" style="background-image: url('./assets/img/omflow/组 17127@2x.png')" alt="sketch scroll first image">
       </div>
       <div class="container three-view">
         <div class="row">
-          <div class="col-8 offset-2">
+          <div class="col-9 col-xl-8 offset-1 offset-xl-2">
             <p class="nunito">THREE VIEW <img class="decor first" src="./assets/img/omflow/素材@2x.png" alt="decoration image">
-            <img class="decor sec" src="./assets/img/omflow/素材@2x.png" alt="decoration image"></p>
+            <img class="decor sec" src="./assets/img/omflow/素材2@2x.png" alt="decoration image"></p>
             <span class="noto-san-desc d-flex">除了手繪稿與 AI 三視圖外， 定稿確認後會將平面稿轉為 3D 三視圖內外討論，以利再次核對各處細節與模型調整，在視覺上也更貼近於真實產品。</span>
           </div>
           <div class="col-12">
@@ -129,7 +129,7 @@
             <img class="decor" src="./assets/img/omflow/菱形_3@2x.png" alt="decoration star image">
             <img class="img-fluid" src="./assets/img/omflow/特色_頭毛@2x.png" alt="mascot head image">
             <p>造型設計</p>
-            <p class="desc">融入 OMFLOW LOGO， 讓吉祥物更具代表性</p>
+            <p class="desc">融入 OMFLOW LOGO，<br>讓吉祥物更具代表性</p>
           </div>
           <div class="col">
             <img class="decor" src="./assets/img/omflow/菱形_1@2x.png" alt="decoration star image">
@@ -141,10 +141,10 @@
       </div>
       <div class="container others-color">
         <div class="row">
-          <div class="col">
+          <div class="col-4 col-xl-6">
             <p class="nunito">OTHERS COLOR</p>
           </div>
-          <div class="col">
+          <div class="col-8 col-xl-6">
             <p class="noto-san-desc desc">致配色階段時，會提出三種配色供客戶選擇，理念是以色彩三原色為發想再融合相似色與互補色做搭配，並結合低飽和粉色調，使角色更加平易近人視覺上也能富含更多層次。</p>
           </div>
         </div>
@@ -175,7 +175,9 @@
       <div class="container draft-mascot">
         <div class="row">
           <div class="col-7">
-            <img class="mascot" src="./assets/img/omflow/image_草模@2x.png" alt="draft mascot image">
+            <div class="mascot">
+              <img class="img-fluid" id="bounceObj" src="./assets/img/omflow/image_草模@2x.png" alt="draft mascot image">
+            </div>
           </div>
           <div class="col-5">
             <p class="nunito">角色姿勢</p>
@@ -183,11 +185,11 @@
           </div>
         </div>
       </div>
-      <div class="w-100 render-section first">
+      <div class="w-100 render-section first d-flex">
         <img src="./assets/img/omflow/image_渲染圖1@2x.png" alt="render image 1">
         <img src="./assets/img/omflow/image_渲染圖2@2x.png" alt="render image 2">
       </div>
-      <div class="w-100 render-section">
+      <div class="w-100 render-section d-flex">
         <img src="./assets/img/omflow/image_渲染圖4@2x.png" alt="render image 4">
         <img src="./assets/img/omflow/image_渲染圖3@2x.png" alt="render image 3">
       </div>
